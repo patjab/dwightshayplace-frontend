@@ -1,0 +1,284 @@
+.grid-container {
+  display: grid;
+}
+
+.signage {
+  font-family: Impact;
+  text-align: center;
+  font-size: 136px;
+  font-weight: 900;
+  color: white;
+  opacity: 0.6;
+}
+
+.selectionImage {
+  width: 40%;
+  border-radius: 500px;
+  height: auto;
+}
+
+.selectionDiv {
+  display: inline;
+  padding: 20px;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.startImage {
+  font-family: Impact;
+  font-size: 48px;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+
+
+#mazeListDiv {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#lineControl {
+  font-size: 50px;
+}
+
+
+#usernameValidationMessage {
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  font-family: Tahoma;
+}
+
+.blink {
+	-webkit-animation: blink 2s linear infinite;
+	-moz-animation: blink 2s linear infinite;
+	-ms-animation: blink 2s linear infinite;
+	-o-animation: blink 2s linear infinite;
+	 animation: blink 2s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+
+#login {
+  text-align: center;
+}
+
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 48px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius:20px;
+    background: white;
+    opacity: 0.6;
+}
+
+#highScoreButton {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  border: 0px;
+  border-radius:20px;
+  background: transparent;
+}
+
+select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 48px;
+}
+
+#difficultyLevel {
+  text-align: center;
+}
+
+.patchStyle {
+  border: 5px;
+  border-color: black;
+}
+
+#instructions {
+  font-family: Impact;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+  opacity: 0.6;
+}
+
+video {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background-size: cover;
+}
+
+
+.timer {
+  text-align: center;
+  background-color: orange;
+  border-radius: 20px;
+  font-family: Impact;
+}
+
+.time-font {
+  color: white;
+}
+
+.winner-font {
+  font-family: Impact;
+  color: white;
+  font-size: 3.5em;
+  /* margin-left: 450px;
+  margin-top: 300px; */
+}
+
+#winnerDiv {
+  padding-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: Impact;
+  color: white;
+  font-size: 3.5em;
+  background-color: #ffae42;
+  opacity: 0.9;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 50px;
+}
+
+#dwightPortrait {
+  border-radius: 50px;
+  width: 60%;
+  height: 60%;
+}
+
+#letterheadContainerDiv {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  box-shadow: 10px 15px;
+
+}
+
+#highScoreTitle {
+  font-family: Courier;
+  font-size: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  color: black;
+}
+
+#highScoreRoaster {
+  font-family: Courier;
+  font-size: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: black;
+}
+
+#dunderMifflinLogo {
+  width: 200px;
+  height: "*";
+}
+
+#dunderMifflinLogoDiv {
+  font-family: Courier;
+  font-size: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#letterheadHeader {
+  font-family: Courier;
+  font-size: 16px;
+  text-align: right;
+}
+
+#letterheadGreeting {
+  font-family: Courier;
+  font-size: 16px;
+  text-align: left;
+}
+
+#letterheadEnding {
+  font-family: Courier;
+  font-size: 16px;
+  text-align: right;
+}
+
+
+.shake {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
