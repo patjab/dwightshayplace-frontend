@@ -1,5 +1,4 @@
-// const base =  `https://dwightshayplace-api.herokuapp.com/`
-const base =  `https://localhost:3000/`
+const base =  `https://dwightshayplace-api.herokuapp.com/`
 
 class Adapter {
   getMaze(id) {
