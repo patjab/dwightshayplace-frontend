@@ -29,6 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
           let previousSelection
 
           const firstImg = document.querySelector(`[data-img-index='${0}']`)
+          console.log("BEFORE FIRST IMG SRC")
+          console.log(firstImg)
           firstImg.src = firstImg.src.substring(0, firstImg.src.length-6) + 'Color.jpg'
 
           allImages = document.querySelectorAll(`.selectionImage`)
