@@ -196,6 +196,8 @@ class MazeController {
       const imgBaseURL = maze.image_url
       const difficulty = maze.difficulty
 
+      console.log("WHAT IS MAZE DATA? ", maze)
+
       if ( imgBaseURL !== null ) {
         let currentImgIndex = imgIndex++
         const mazeDivEl = document.createElement("div")

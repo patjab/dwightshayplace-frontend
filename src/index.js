@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
         currentUser = new User(data)
 
         adapter.getMazes().then(data => {
-          console.log("INDEX26 data: ", data)
           const numberOfMazes = mazeController.renderMazesForm(data)
 
           let currentSelection = 0

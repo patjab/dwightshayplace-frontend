@@ -8,7 +8,6 @@ class Adapter {
 
   getMazes() {
     const baseURL = `${base}mazes`
-    console.log("IN GET MAZES")
     return fetch(baseURL).then(r => r.json())
   }
 
