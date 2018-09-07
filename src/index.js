@@ -23,14 +23,13 @@ document.addEventListener('DOMContentLoaded', () => {
         currentUser = new User(data)
 
         adapter.getMazes().then(data => {
+          console.log("INDEX26 data: ", data)
           const numberOfMazes = mazeController.renderMazesForm(data)
 
           let currentSelection = 0
           let previousSelection
 
           const firstImg = document.querySelector(`[data-img-index='${0}']`)
-          console.log("BEFORE FIRST IMG SRC")
-          console.log(firstImg)
           firstImg.src = firstImg.src.substring(0, firstImg.src.length-6) + 'Color.jpg'
 
           allImages = document.querySelectorAll(`.selectionImage`)
