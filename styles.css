@@ -169,6 +169,7 @@ video {
   background-color: orange;
   border-radius: 20px;
   font-family: Impact;
+  width: 75%;
 }
 
 .time-font {
