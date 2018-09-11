@@ -13,8 +13,16 @@ const Character = (function() {
 
       this.kevinImg = document.createElement("IMG")
       this.kevinImg.src = `./media/${this.name}.jpg`
-      this.kevinImg.style.width = "50%"
-      this.kevinImg.style.height = "50%"
+
+      if (this.name !== 'jim') {
+        this.kevinImg.style.width = "50%"
+        this.kevinImg.style.height = "50%"
+      } else {
+        this.kevinImg.style.width = "40%"
+        this.kevinImg.style.height = "40%"
+      }
+
+
 
       this.moveAroundInterval
       this.abilitiesInterval = []
