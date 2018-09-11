@@ -12,8 +12,8 @@ const HayPatch = (function() {
       hayPatchDivEl.className += " " + "patchStyle"
       const hayPic = document.createElement("IMG");
       hayPic.setAttribute("src", "./media/hay.png");
-      hayPic.setAttribute("width", "100%");
-      hayPic.setAttribute("height", "100%");
+      // hayPic.setAttribute("width", "100%");
+      // hayPic.setAttribute("height", "100%");
       hayPatchDivEl.append(hayPic)
     }
 
