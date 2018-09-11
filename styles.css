@@ -10,7 +10,8 @@ body {
 
 .mazeBackground {
   background-color: #FFFFFF;
-  border: 4px solid #888383;
+  border: 10px solid #888383;
+  padding: 5px;
 }
 
 .parent {
