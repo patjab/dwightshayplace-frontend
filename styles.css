@@ -1,5 +1,9 @@
 .grid-container {
   display: grid;
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+
 }
 
 .signage {
