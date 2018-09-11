@@ -1,9 +1,3 @@
-#bodyContainer {
-  background-color: blue;
-  width: 70%;
-  height: 70%;
-}
-
 .grid-container {
   display: grid;
 }
@@ -175,6 +169,7 @@ video {
   background-color: orange;
   border-radius: 20px;
   font-family: Impact;
+  width: 70%
 }
 
 .time-font {
