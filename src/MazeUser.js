@@ -240,7 +240,7 @@ class MazeUser {
         }, 100)
       }
       if (currentTimeLeft >= 2) {
-        timerEl.innerHTML = `<h1 class='time-font'>${currentTimeLeft} second remain</h1>`
+        timerEl.innerHTML = `<h1 class='time-font'>${currentTimeLeft} seconds remain</h1>`
       } else if (currentTimeLeft === 1 ){
         timerEl.innerHTML = `<h1 class='time-font'>${currentTimeLeft} second remains</h1>`
       }
