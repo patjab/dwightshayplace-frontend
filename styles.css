@@ -1,7 +1,10 @@
+#bodyContainer {
+  height: 70%;
+  width: 70%;
+}
+
 .grid-container {
   display: grid;
-    height: 200px;
-    width: 50%;
 }
 
 .signage {
