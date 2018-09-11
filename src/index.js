@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Until event removers are installed
   let finishedSelecting = false
 
-  // userController.setupVideoSignin()
+  userController.setupVideoSignin()
   const signInFormEl = userController.renderSignInForm()
 
   signInFormEl.addEventListener('submit', (e) => {
