@@ -68,6 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
               if (e.key === 'Enter' && !finishedSelecting) {
                 finishedSelecting = true
+                document.querySelector('.grid-container').classList += ' mazeBackground'
                 let choosenLevelEl = document.querySelector(`[data-img-index='${currentSelection}']`)
                 const id = choosenLevelEl.dataset.mazeId // SUCH A CHEAP FIX, FIX THIS LATER
                 while (gridContainerEl.firstChild) {gridContainerEl.removeChild(gridContainerEl.firstChild)}

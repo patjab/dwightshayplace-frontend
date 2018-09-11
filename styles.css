@@ -6,6 +6,10 @@ body {
   display: grid;
   border: 4px solid #888383;
   border-radius: 10px;
+  background-color: #3B3838;
+}
+
+.mazeBackground {
   background-color: #FFFFFF;
 }
 
@@ -179,10 +183,10 @@ video {
 
 .timer {
   text-align: center;
-  background-color: orange;
+  background-color: #000000;
   border-radius: 20px;
   font-family: Impact;
-  width: 85vw;
+  width: 80vw;
 }
 
 .time-font {
