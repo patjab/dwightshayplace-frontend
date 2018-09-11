@@ -15,8 +15,8 @@ class MazeController {
     kevinsChiliSoundEl.src = "./media/kevinsFamousChili.mp3"
     document.head.appendChild(kevinsChiliSoundEl)
 
-    this.gridContainerEl.style['grid-template-columns'] = `repeat(${size}, ${(100/(size+2))*0.75}vw)`
-    this.gridContainerEl.style['grid-template-rows'] = `repeat(${size}, ${(100/(size+2))*0.75}vh)`
+    this.gridContainerEl.style['grid-template-columns'] = `repeat(${size}, ${(100/(size+2))*0.88}vw)`
+    this.gridContainerEl.style['grid-template-rows'] = `repeat(${size}, ${(100/(size+2))*0.88}vh)`
 
     for ( let row = 0; row < size; row++ ) {
       for ( let col = 0; col < size; col++ ) {
