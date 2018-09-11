@@ -2,6 +2,12 @@
   display: grid;
 }
 
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .signage {
   font-family: Impact;
   text-align: center;
