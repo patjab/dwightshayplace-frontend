@@ -1,5 +1,6 @@
 body {
-  background-color: #48302A;
+  /* background-color: #3B3838; */
+  background: url("./hayBackground.jpg");
 }
 
 .grid-container {
